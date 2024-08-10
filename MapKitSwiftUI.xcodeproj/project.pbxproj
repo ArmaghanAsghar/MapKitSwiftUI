@@ -9,16 +9,26 @@
 /* Begin PBXBuildFile section */
 		EF3AD9E92C6713FF00EF6033 /* MapKitSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3AD9E82C6713FF00EF6033 /* MapKitSwiftUIApp.swift */; };
 		EF3AD9EB2C6713FF00EF6033 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3AD9EA2C6713FF00EF6033 /* ContentView.swift */; };
-		EF3AD9ED2C67140000EF6033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF3AD9EC2C67140000EF6033 /* Assets.xcassets */; };
 		EF3AD9F02C67140000EF6033 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF3AD9EF2C67140000EF6033 /* Preview Assets.xcassets */; };
+		EF3AD9F72C67190800EF6033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF3AD9F62C67190800EF6033 /* Assets.xcassets */; };
+		EF3AD9FC2C671A8200EF6033 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3AD9FB2C671A8200EF6033 /* Location.swift */; };
+		EF3AD9FF2C671BA400EF6033 /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3AD9FE2C671BA400EF6033 /* LocationsDataService.swift */; };
+		EF3ADA012C671CF200EF6033 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3ADA002C671CF200EF6033 /* LocationsView.swift */; };
+		EF3ADA042C67216200EF6033 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3ADA032C67216200EF6033 /* LocationViewModel.swift */; };
+		EF3ADA062C68014400EF6033 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3ADA052C68014400EF6033 /* LocationsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EF3AD9E52C6713FF00EF6033 /* MapKitSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapKitSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF3AD9E82C6713FF00EF6033 /* MapKitSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitSwiftUIApp.swift; sourceTree = "<group>"; };
 		EF3AD9EA2C6713FF00EF6033 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		EF3AD9EC2C67140000EF6033 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF3AD9EF2C67140000EF6033 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF3AD9F62C67190800EF6033 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF3AD9FB2C671A8200EF6033 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		EF3AD9FE2C671BA400EF6033 /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
+		EF3ADA002C671CF200EF6033 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
+		EF3ADA032C67216200EF6033 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		EF3ADA052C68014400EF6033 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +63,11 @@
 			children = (
 				EF3AD9E82C6713FF00EF6033 /* MapKitSwiftUIApp.swift */,
 				EF3AD9EA2C6713FF00EF6033 /* ContentView.swift */,
-				EF3AD9EC2C67140000EF6033 /* Assets.xcassets */,
+				EF3AD9FD2C671B9200EF6033 /* DataServices */,
+				EF3AD9F82C671A2A00EF6033 /* Views */,
+				EF3AD9F92C671A3D00EF6033 /* ViewModels */,
+				EF3AD9FA2C671A4700EF6033 /* Models */,
+				EF3AD9F62C67190800EF6033 /* Assets.xcassets */,
 				EF3AD9EE2C67140000EF6033 /* Preview Content */,
 			);
 			path = MapKitSwiftUI;
@@ -65,6 +79,39 @@
 				EF3AD9EF2C67140000EF6033 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF3AD9F82C671A2A00EF6033 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF3ADA002C671CF200EF6033 /* LocationsView.swift */,
+				EF3ADA052C68014400EF6033 /* LocationsListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EF3AD9F92C671A3D00EF6033 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				EF3ADA032C67216200EF6033 /* LocationViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EF3AD9FA2C671A4700EF6033 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EF3AD9FB2C671A8200EF6033 /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EF3AD9FD2C671B9200EF6033 /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				EF3AD9FE2C671BA400EF6033 /* LocationsDataService.swift */,
+			);
+			path = DataServices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +172,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF3AD9F72C67190800EF6033 /* Assets.xcassets in Resources */,
 				EF3AD9F02C67140000EF6033 /* Preview Assets.xcassets in Resources */,
-				EF3AD9ED2C67140000EF6033 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +184,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF3AD9FF2C671BA400EF6033 /* LocationsDataService.swift in Sources */,
+				EF3ADA062C68014400EF6033 /* LocationsListView.swift in Sources */,
+				EF3ADA042C67216200EF6033 /* LocationViewModel.swift in Sources */,
 				EF3AD9EB2C6713FF00EF6033 /* ContentView.swift in Sources */,
+				EF3ADA012C671CF200EF6033 /* LocationsView.swift in Sources */,
+				EF3AD9FC2C671A8200EF6033 /* Location.swift in Sources */,
 				EF3AD9E92C6713FF00EF6033 /* MapKitSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
