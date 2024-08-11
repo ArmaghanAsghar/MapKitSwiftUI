@@ -17,6 +17,7 @@
 		EF3ADA042C67216200EF6033 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3ADA032C67216200EF6033 /* LocationViewModel.swift */; };
 		EF3ADA062C68014400EF6033 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3ADA052C68014400EF6033 /* LocationsListView.swift */; };
 		EF3ADA082C6813D500EF6033 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3ADA072C6813D500EF6033 /* LocationPreviewView.swift */; };
+		EF3ADA0A2C683A2A00EF6033 /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3ADA092C683A2A00EF6033 /* LocationMapAnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		EF3ADA032C67216200EF6033 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
 		EF3ADA052C68014400EF6033 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
 		EF3ADA072C6813D500EF6033 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
+		EF3ADA092C683A2A00EF6033 /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				EF3ADA002C671CF200EF6033 /* LocationsView.swift */,
 				EF3ADA052C68014400EF6033 /* LocationsListView.swift */,
 				EF3ADA072C6813D500EF6033 /* LocationPreviewView.swift */,
+				EF3ADA092C683A2A00EF6033 /* LocationMapAnnotationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF3AD9FF2C671BA400EF6033 /* LocationsDataService.swift in Sources */,
+				EF3ADA0A2C683A2A00EF6033 /* LocationMapAnnotationView.swift in Sources */,
 				EF3ADA062C68014400EF6033 /* LocationsListView.swift in Sources */,
 				EF3ADA082C6813D500EF6033 /* LocationPreviewView.swift in Sources */,
 				EF3ADA042C67216200EF6033 /* LocationViewModel.swift in Sources */,
